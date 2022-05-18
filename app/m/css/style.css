@@ -2546,7 +2546,7 @@ nav .logo {
 }
 
 .partner {
-    width: 16rem;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -2557,6 +2557,34 @@ nav .logo {
     letter-spacing: .15rem;
 }
 
+.partner-logo {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: .5rem auto 0;
+    position: relative;
+    z-index: 2;
+}
+
+.partner-logo p {
+    margin: 0 .1rem .3rem;
+    height: 1.1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.partner-logo img {
+    display: block;
+    opacity: 1;
+    height: 100%;
+}
+
+.page6 .waves {
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
 
 
 .footer {

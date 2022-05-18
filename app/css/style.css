@@ -621,7 +621,7 @@ nav .logo {
 }
 
 .nav-target .btn:nth-child(5)::before {
-    content: 'coming soon';
+    /* content: 'coming soon'; */
     display: block;
     width: 100%;
     text-align: center;
@@ -2607,12 +2607,14 @@ nav .logo {
     background: #08121a;
     position: relative;
     overflow: hidden;
-    margin-bottom: 1rem;
+    min-height: 10rem;
 }
 
 .partner {
     width: 16rem;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 .partner h2 {
@@ -2622,13 +2624,68 @@ nav .logo {
     letter-spacing: .15rem;
 }
 
+.partner-logo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 18rem;
+    margin: .5rem auto 0;
+    position: relative;
+    z-index: 2;
+}
 
+.partner-logo p {
+    /* max-width: 2.78rem; */
+    margin: 0 .2rem .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .2rem .22rem;
+    min-width: 2.2rem;
+    min-height: 1.4rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.partner-logo p::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 300ms;
+}
+
+.partner-logo img {
+    display: block;
+    opacity: 0.5;
+    transition: all 300ms;
+}
+
+.page6 .waves {
+    position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+
+.partner-logo p:hover::after {
+    border: 1px solid rgba(255, 255, 255, .2);
+
+}
+
+.partner-logo p:hover img {
+    opacity: 1;
+}
+
+/*  */
 
 .footer {
     width: 100%;
     height: 3.7rem;
     background: #000;
-    position: relative;
+    position: absolute;
     z-index: 9;
 }
 
