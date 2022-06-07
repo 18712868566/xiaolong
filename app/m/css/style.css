@@ -3889,6 +3889,8 @@ nav .logo {
     width: 100%;
     font-size: .24rem;
     color: rgba(255, 255, 255, 0.3);
+    
+    position: absolute;
 }
 .course .buzhou dd .btn-scan{
     height: 5.92rem;
@@ -3903,7 +3905,11 @@ nav .logo {
     cursor: auto;
 }
 .course .buzhou dd {
-    margin-left: 0.85rem;
+    margin-left: 0;
+}
+
+.course .buzhou dl:last-child{
+    margin-top: 1.8rem;
 }
 
 @media only screen and (max-width: 750px){
@@ -3922,7 +3928,7 @@ nav .logo {
 }
 
 .dao {
-    width: 100%;
+    width: 90%;
     margin: .4rem auto;
     position: relative;
     z-index: 9;
