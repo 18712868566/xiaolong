@@ -1184,24 +1184,24 @@ nav .logo {
 
 .level .lv1 .icon_star {
     display: block;
-    width: 1.11rem;
-    height: 0.62rem;
-    background: url(../images/gka/lv1_s.png) no-repeat 0 0 / 100% 100%;
+    width: 1.93rem;
+    height: 1.24rem;
+    background: url(../images/gka/lv1_s_add.png) no-repeat 0 0 / 100% 100%;
     position: absolute;
-    top: -.75rem;
-    left: 0.32rem;
+    top: -1.3rem;
+    left: 0.6rem;
     animation: transXY 1s linear infinite alternate;
     -webkit-animation: transXY 1s linear infinite alternate;
 }
 
 .level .lv2 .icon_star {
     display: block;
-    width: 1.31rem;
-    height: 0.72rem;
-    background: url(../images/gka/lv2_s.png) no-repeat 0 0 / 100% 100%;
+    width: 2.34rem;
+    height: 1.47rem;
+    background: url(../images/gka/lv2_s_add.png) no-repeat 0 0 / 100% 100%;
     position: absolute;
-    top: -.8rem;
-    left: .4rem;
+    top: -1.3rem;
+    left: .8rem;
     animation: transXY 1s linear infinite alternate;
     -webkit-animation: transXY 1s linear infinite alternate;
 }
@@ -3764,4 +3764,75 @@ nav .logo {
 .loadend {
     position: relative;
     min-width: 19.2rem;
+}
+
+
+
+/* 2022年6月7日15:14:18  add  */
+.allocation{
+    position: relative;
+    height: 3rem;
+}
+.dao {
+    width: 16rem;
+    margin: 1.2rem auto;
+    position: relative;
+    z-index: 9;
+}
+.dao .title {
+    font-size: 1rem;
+    color: #fff;
+    letter-spacing: .05rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+}
+.chart-right{
+    position:relative;
+    bottom: 0;
+}
+
+.dao-cen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.dao-cen img{
+    width: 5.53rem;
+    height: 4.75rem;
+}
+.dao-cen p{
+    color: #777;
+    font-size: .32rem;
+    margin-left: 1rem;
+    line-height: .5rem;
+}
+
+.deardes-cc .daocanvas{
+    height: 11rem;
+}
+
+.deardes-cc .daocanvas #waves{
+    bottom: 0;
+}
+
+.course .buzhou dd span{
+    display: inline-block;
+    width: 7rem;
+    font-size: .24rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+.course .buzhou dd .btn-scan{
+    height: 5.92rem;
+    height: 2.01rem;
+    background: url(../images/details/btn-scan.png) no-repeat 0 0 / 100% 100%;
+}
+
+.course .buzhou dd .btn-scan:hover {
+    -webkit-filter: brightness(100%);
+    /* Chrome, Safari, Opera */
+    filter: brightness(100%);
+    cursor: auto;
 }

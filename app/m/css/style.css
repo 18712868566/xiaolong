@@ -1194,29 +1194,30 @@ nav .logo {
     -webkit-animation: transXY 1s linear infinite alternate;
 }
 
-.level .lv2 .icon_star {
+.level .lv1 .icon_star {
     display: block;
-    width: 1.31rem;
-    height: 0.72rem;
-    background: url(../images/gka/lv2_s.png) no-repeat 0 0 / 100% 100%;
+    width: 1.93rem;
+    height: 1.24rem;
+    background: url(../images/gka/lv1_s_add.png) no-repeat 0 0 / 100% 100%;
     position: absolute;
-    top: -.8rem;
-    left: .4rem;
+    top: -1.3rem;
+    left: 0.6rem;
     animation: transXY 1s linear infinite alternate;
     -webkit-animation: transXY 1s linear infinite alternate;
 }
 
-.level .lv3 .icon_star {
+.level .lv2 .icon_star {
     display: block;
-    width: 1.51rem;
-    height: 0.83rem;
-    background: url(../images/gka/lv3_s.png) no-repeat 0 0 / 100% 100%;
+    width: 2.34rem;
+    height: 1.47rem;
+    background: url(../images/gka/lv2_s_add.png) no-repeat 0 0 / 100% 100%;
     position: absolute;
-    top: -.88rem;
-    left: 0.4rem;
+    top: -1.3rem;
+    left: .8rem;
     animation: transXY 1s linear infinite alternate;
     -webkit-animation: transXY 1s linear infinite alternate;
 }
+
 
 @keyframes transXYS {
     0% {
@@ -3880,4 +3881,77 @@ nav .logo {
     height: 100%;
     margin-top: 0;
     padding-top: 200px;
+}
+
+/* 2022年6月7日15:14:18  add  */
+.course .buzhou dd span{
+    display: inline-block;
+    width: 100%;
+    font-size: .24rem;
+    color: rgba(255, 255, 255, 0.3);
+}
+.course .buzhou dd .btn-scan{
+    height: 5.92rem;
+    height: 2.01rem;
+    background: url(../images/details/btn-scan.png) no-repeat 0 0 / 100% 100%;
+}
+
+.course .buzhou dd .btn-scan:hover {
+    -webkit-filter: brightness(100%);
+    /* Chrome, Safari, Opera */
+    filter: brightness(100%);
+    cursor: auto;
+}
+.course .buzhou dd {
+    margin-left: 0.85rem;
+}
+
+@media only screen and (max-width: 750px){
+    .chart-right {
+        width: 100%;
+        height: 6rem;
+        margin: 0 auto;
+        position: relative;
+        top: 0rem;
+    }
+}
+
+
+.deardes-cc .waves{
+    height: 20rem;
+}
+
+.dao {
+    width: 100%;
+    margin: .4rem auto;
+    position: relative;
+    z-index: 9;
+}
+.dao .title {
+    font-size: 0.8rem;
+    color: #fff;
+    letter-spacing: .05rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+}
+
+
+.dao-cen{
+    width: 100%;
+    position: relative;
+    margin-top: 1rem;
+}
+.dao-cen img{
+    width: 5.53rem;
+    height: 4.75rem;
+    display: block;
+    margin: 0 auto;
+}
+.dao-cen p{
+    color: #777;
+    font-size: .32rem;
+    margin-left: 1rem;
+    line-height: .5rem;
 }
